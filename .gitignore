@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+.env
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Reproducibility artifact: data/raw, data/processed and outputs/ are
+# intentionally tracked (~2.5 MB total) — they back the manuscript's
+# reproducibility claim.
+
+# Local toolchain (tectonic.exe, ~48 MB)
+tools/
+*.exe
+
+# Manuscript sources are withheld until the paper is accepted; nothing from this
+# folder (tex, md, pdf, aux) is committed.
+manuscript/
+
+# Internal working notes, not part of the scientific artifact
+AGENTS.md
+CLAUDE.md
+PROGRESS_day3-5.md
+konteks lanjutan skripsi RAM AI forecasting.md
+archive/

@@ -1,0 +1,13 @@
+series,transform,n,adf_stat,adf_p_lag0,adf_p_lag1,adf_p_aic,adf_lags_aic,kpss_stat,kpss_p,adf_stationary_5pct,kpss_stationary_5pct,verdict
+DDR4,level,27,-1.016,0.7474,0.8618,0.7474,0,0.684,0.015,False,False,non-stationary (both tests agree)
+DDR4,first difference,26,-5.739,0.0,0.0001,0.0,0,0.163,0.1,True,True,stationary (both tests agree)
+DDR5,level,27,-2.249,0.9553,0.947,0.189,8,0.666,0.0166,False,False,non-stationary (both tests agree)
+DDR5,first difference,26,-2.605,0.0001,0.0835,0.0919,5,0.154,0.1,True,True,stationary (both tests agree)
+NAND,level,27,-0.692,0.8489,0.8996,0.8489,0,0.622,0.0206,False,False,non-stationary (both tests agree)
+NAND,first difference,26,-9.504,0.0,0.05,0.0,0,0.156,0.1,True,True,stationary (both tests agree)
+SOXX,level,27,0.228,0.8243,0.7929,0.9738,7,0.646,0.0185,False,False,non-stationary (both tests agree)
+SOXX,first difference,26,-1.023,0.0013,0.0011,0.7447,9,0.159,0.1,True,True,stationary (both tests agree)
+MU,level,27,-2.16,0.8923,0.857,0.2211,8,0.639,0.0191,False,False,non-stationary (both tests agree)
+MU,first difference,26,-2.002,0.0017,0.0,0.2855,8,0.189,0.1,True,True,stationary (both tests agree)
+NVDA,level,27,-2.673,0.6925,0.6421,0.0788,9,0.699,0.0137,False,False,non-stationary (both tests agree)
+NVDA,first difference,26,-3.409,0.0011,0.0018,0.0107,5,0.078,0.1,True,True,stationary (both tests agree)

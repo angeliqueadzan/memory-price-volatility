@@ -1,0 +1,7 @@
+target,exogenous,level_pearson_r,level_pearson_p,level_spearman_rho,level_spearman_p,returns_pearson_r,returns_pearson_p,returns_spearman_rho,returns_spearman_p
+DDR4,SOXX,0.872,0.0,0.887,0.0,-0.236,0.2452,-0.114,0.5797
+DDR4,MU,0.842,0.0,0.871,0.0,-0.305,0.1296,-0.237,0.2439
+DDR4,NVDA,0.791,0.0,0.837,0.0,-0.145,0.4812,-0.085,0.6793
+DDR5,SOXX,0.794,0.0,0.736,0.0,-0.184,0.3686,-0.085,0.6793
+DDR5,MU,0.8,0.0,0.759,0.0,-0.108,0.6009,0.019,0.9274
+DDR5,NVDA,0.709,0.0,0.614,0.0007,-0.435,0.0264,-0.451,0.0208

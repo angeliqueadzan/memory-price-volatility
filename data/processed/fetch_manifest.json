@@ -1,0 +1,77 @@
+{
+  "generated_utc": "2026-11-12T13:49:44+00:00",
+  "windows": {
+    "window_B": {
+      "start": "2024-08-01",
+      "end": "2026-10-01",
+      "n_months": 27
+    },
+    "master": {
+      "start": "2022-01-01",
+      "end": "2026-10-01",
+      "n_months": 58
+    },
+    "dram_generic_last_month": "2024-07-01"
+  },
+  "sources": {
+    "stanford_dam": {
+      "url": "https://dam.stanford.edu/assets/memory-prices/memory-prices.csv",
+      "path": "data\\raw\\stanford_memory-prices_2026-11-12.csv",
+      "sha256": "dcb1aa5e1adbfd6e238b6960ceaab8489c95a9a16ff5a0bd15e8ba9242c52682",
+      "bytes": 207221,
+      "rows": 984,
+      "fetched_utc": "2026-11-12T13:49:44+00:00",
+      "used_cache": true,
+      "last_date_in_source": "2026-10-01"
+    },
+    "yahoo": {
+      "SOXX": {
+        "symbol": "SOXX",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?period1=1635724800&period2=1794441600&interval=1mo&events=div,splits",
+        "path": "data\\raw\\yahoo_SOXX_1mo_2026-11-12.json",
+        "sha256": "33ea4fbb400b2a34818e9191d28c088dff648cb88183a528df3385a9a603f3f6",
+        "bytes": 9408,
+        "used_cache": true,
+        "first_month": "2021-11-01",
+        "last_month": "2026-10-01",
+        "dropped_partial_current_month": true,
+        "price_kind": "adjusted_close"
+      },
+      "MU": {
+        "symbol": "MU",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?period1=1635724800&period2=1794441600&interval=1mo&events=div,splits",
+        "path": "data\\raw\\yahoo_MU_1mo_2026-11-12.json",
+        "sha256": "8a718e31296f4147e5406395efe817761f697f8a3879f323e63513cddc818bd7",
+        "bytes": 8741,
+        "used_cache": true,
+        "first_month": "2021-11-01",
+        "last_month": "2026-10-01",
+        "dropped_partial_current_month": true,
+        "price_kind": "adjusted_close"
+      },
+      "NVDA": {
+        "symbol": "NVDA",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?period1=1635724800&period2=1794441600&interval=1mo&events=div,splits",
+        "path": "data\\raw\\yahoo_NVDA_1mo_2026-11-12.json",
+        "sha256": "e7ce3296cf883b14be0788e585800be5e7233ab8400a0d6fb36ace6aa5381884",
+        "bytes": 9262,
+        "used_cache": true,
+        "first_month": "2021-11-01",
+        "last_month": "2026-10-01",
+        "dropped_partial_current_month": true,
+        "price_kind": "adjusted_close"
+      }
+    }
+  },
+  "outputs": {
+    "window_B_ai_shock_period_monthly.csv": "36cd9c49a123b3e504b34c6b1cb95b14cbc94fc297f037fab2b92e2dfa4bd22d",
+    "master_raw_monthly.csv": "be6137d9681da5bb914c33282c9a0e92ec95422e6b34aa440425cf4762aa79e5",
+    "master_interpolated_monthly.csv": "f09590950d409e95a4639e8fac6811dc269ece1cd1bad89f37876d67f7b61a5b",
+    "window_B_scaled_monthly.csv": "5d5e03039acc1f7cd2774b7950fee8d96b278dc0fd1546f59f4ae2db01677161"
+  },
+  "notes": [
+    "DDR4/DDR5/NAND come from the Keepa basket (cheapest listing per month, USD/GB).",
+    "SOXX/MU/NVDA are monthly adjusted closes in USD (Yahoo Finance).",
+    "window_B_scaled_monthly.csv is MinMax over the whole window and is for visualisation only; modelling must fit any scaler on the training split."
+  ]
+}

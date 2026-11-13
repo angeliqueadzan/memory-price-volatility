@@ -1,0 +1,12 @@
+target,model,order,drift,trend_code,exog,preset,aic,inner_mae
+DDR4,Naive,-,no,-,-,-,-,-
+DDR4,ARIMA,"(2, 1, 0)",yes,t,-,-,-3.92,-
+DDR4,ARIMA (no drift),"(0, 1, 1)",no,n,-,-,-1.69,-
+DDR4,SARIMAX,"(0, 1, 0)",yes,c,MU,-,-8.46,-
+DDR4,XGBoost,-,no,-,SOXX+MU+NVDA,"{'n_estimators': 200, 'max_depth': 1, 'learning_rate': 0.05}",-,0.9797
+DDR4,SARIMAX (exog lag-1),"(0, 1, 0)",no,n,SOXX,-,-15.41,-
+DDR5,Naive,-,no,-,-,-,-,-
+DDR5,ARIMA,"(1, 1, 2)",no,n,-,-,-2.43,-
+DDR5,SARIMAX,"(0, 1, 1)",yes,c,MU+NVDA,-,-3.96,-
+DDR5,XGBoost,-,no,-,SOXX+MU+NVDA,"{'n_estimators': 100, 'max_depth': 2, 'learning_rate': 0.05}",-,2.4007
+DDR5,SARIMAX (exog lag-1),"(1, 1, 0)",yes,c,MU+NVDA,-,-1.98,-

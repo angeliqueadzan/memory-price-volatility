@@ -1,0 +1,36 @@
+target,model,regime,n,rmse,mae,mape
+DDR4,Naive,holdout_1step,6,1.1601,0.9121,13.6521
+DDR4,ARIMA,holdout_1step,6,2.0344,1.6174,25.2661
+DDR4,ARIMA (no drift),holdout_1step,6,2.0722,1.5199,22.8672
+DDR4,SARIMAX,holdout_1step,6,1.2927,1.1014,17.1984
+DDR4,XGBoost,holdout_1step,6,0.8879,0.7858,11.7361
+DDR4,SARIMAX (exog lag-1),holdout_1step,6,2.781,1.9572,28.6289
+DDR4,Naive,holdout_h6,6,0.8265,0.7436,11.5803
+DDR4,ARIMA,holdout_h6,6,4.1878,3.6355,56.5875
+DDR4,ARIMA (no drift),holdout_h6,6,1.1375,1.009,15.9534
+DDR4,SARIMAX,holdout_h6,6,4.4772,3.8832,60.436
+DDR4,XGBoost,holdout_h6,6,0.7253,0.6775,10.3399
+DDR4,SARIMAX (exog lag-1),holdout_h6,6,0.8265,0.7436,11.5803
+DDR4,SARIMAX (realised exog),holdout_h6,6,2.7385,2.197,34.268
+DDR4,Naive,cv_rolling,14,1.0873,0.825,16.5443
+DDR4,ARIMA,cv_rolling,14,1.4904,1.0874,21.0264
+DDR4,ARIMA (no drift),cv_rolling,14,1.6372,1.1558,20.6788
+DDR4,SARIMAX,cv_rolling,14,1.0825,0.8686,18.1084
+DDR4,XGBoost,cv_rolling,14,1.0044,0.8367,16.5739
+DDR4,SARIMAX (exog lag-1),cv_rolling,13,1.9661,1.2416,19.6453
+DDR5,Naive,holdout_1step,6,2.2575,1.7966,19.1477
+DDR5,ARIMA,holdout_1step,6,3.5274,2.9124,32.1197
+DDR5,SARIMAX,holdout_1step,6,6.9893,3.9434,48.4287
+DDR5,XGBoost,holdout_1step,6,2.4263,1.7592,18.1622
+DDR5,SARIMAX (exog lag-1),holdout_1step,6,4.3984,3.305,37.2172
+DDR5,Naive,holdout_h6,6,2.3754,2.0544,20.7063
+DDR5,ARIMA,holdout_h6,6,3.6459,2.9452,33.7505
+DDR5,SARIMAX,holdout_h6,6,3.2377,2.7435,30.7115
+DDR5,XGBoost,holdout_h6,6,2.3682,2.006,19.9885
+DDR5,SARIMAX (exog lag-1),holdout_h6,6,3.1381,2.8429,30.795
+DDR5,SARIMAX (realised exog),holdout_h6,6,15.6893,15.0751,152.7367
+DDR5,Naive,cv_rolling,14,2.1571,1.7414,20.9793
+DDR5,ARIMA,cv_rolling,14,2.6361,1.9741,23.6427
+DDR5,SARIMAX,cv_rolling,14,4.9272,2.8107,35.7399
+DDR5,XGBoost,cv_rolling,14,2.3697,1.8489,22.3536
+DDR5,SARIMAX (exog lag-1),cv_rolling,13,3.3713,2.5161,30.4309

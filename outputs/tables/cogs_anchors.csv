@@ -1,0 +1,7 @@
+profile,profile_label,anchor,dram_price,nand_price,ram_cost,nand_cost,total_bom,ram_share_pct,memory_share_pct
+A_entry_office,A. Entry / Office,Pre-shock (Window B start),0.898,0.0475,14.3675,30.875,350.2425,4.1022,12.9175
+B_mainstream_gaming,B. Mainstream / Gaming,Pre-shock (Window B start),2.8241,0.0475,90.3699,61.75,1002.1199,9.0179,15.1798
+C_workstation_ai,C. Workstation / AI-Ready,Pre-shock (Window B start),2.8241,0.0475,180.7398,123.5,2349.2398,7.6935,12.9506
+A_entry_office,A. Entry / Office,Last observed,6.2494,0.0926,99.9899,60.203,465.1929,21.4943,34.4358
+B_mainstream_gaming,B. Mainstream / Gaming,Last observed,14.0609,0.0926,449.9501,120.406,1420.3561,31.6787,40.1559
+C_workstation_ai,C. Workstation / AI-Ready,Last observed,14.0609,0.0926,899.9002,240.812,3185.7122,28.248,35.8071

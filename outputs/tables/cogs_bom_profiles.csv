@@ -1,0 +1,4 @@
+profile,dram,ram_gb,ssd_gb,CPU,Motherboard,PSU / case / cooling,Assembly & overhead,GPU,non_memory_total
+A. Entry / Office,DDR4,16,500,115.0,75.0,70.0,45.0,,305.0
+B. Mainstream / Gaming,DDR5,32,1000,200.0,140.0,140.0,70.0,300.0,850.0
+C. Workstation / AI-Ready,DDR5,64,2000,520.0,300.0,305.0,120.0,800.0,2045.0
